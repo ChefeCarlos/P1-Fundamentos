@@ -99,7 +99,7 @@ def questão4_float_para_ieee754(number):
 QUESTÃO 5
 """
 
-# Função recebe um texto str e retorna sua representação em hexadecimal utf-8 e quantidade de bytes.
+# A função recebe uma string e retorna sua representação hexadecimal em UTF-8 e a quantidade de bytes
 
 # Recebe string
 # Retorna sua representação em hex e quantos bytes.
@@ -114,7 +114,7 @@ def questão5_utf8(texto):
 """
 QUESTÃO 6
 """
-# Função recebe um literal como a expressão que deve ser desenhada pela função logicparse
+# A função recebe uma expressão literal que deve ser desenhada pela função logicparse.
 # Retorna o nome do arquivo ('circuito.jpg').
 
 def questão6_desenhar_logica_bool(expressao):
@@ -129,7 +129,7 @@ def questão6_desenhar_logica_bool(expressao):
 QUESTÃO 7
 """
 
-# Funcão que recebe 3 valores de 1 ou 0 (True ou False)
+# Função que recebe três valores de 1 ou 0 (Verdadeiro ou Falso)
 # Retorna um booleano.
 
 def questão7_and3_com_and4(A, B, C):
