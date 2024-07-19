@@ -9,8 +9,8 @@ QUESTÃO 1
 # Função de conversão das bases
 # A função recebe o valor de origem, de qual base é o valor de origem (bin, dec, hex) e qual base o valor deve ser convertido.
 
-# A logica dessa função é converter qualquer que for o valor de origem para a base decimal(utlizando a função int() do python) e 
-# depois converter da base decimal para a base solicitada utilizando
+# A lógica dessa função é converter qualquer valor de origem para a base decimal (utilizando a função int() do Python) e, em seguida, 
+# converter da base decimal para a base solicitada utilizando
 
 # Retorna uma string.
 
@@ -25,7 +25,7 @@ def questao1_converter_bases(value, from_base, to_base):
     else:
         return "Base de origem inválida"
 
-    # Converte de decimal para a base de destino
+    # Converte do decimal para a base desejada
     if to_base == 'bin':
         return bin(decimal_value)[2:]  # [2:] remove o prefixo '0b' da string
     elif to_base == 'hex':
