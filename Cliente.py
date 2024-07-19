@@ -9,9 +9,9 @@ def get_question():
         print(f'{question} não é uma questão valida.\nTente novamente.\n')
 
 
-# Armazenar parametros das questões determinadas pelo client (Retornam Strings)
+# Salvar os parâmetros das questões especificadas pelo cliente (Retornam Strings)
+# Questão 1 
 
-# Questão 1
 def get_question1_parameters():
     value = input('Digite o valor a ser convertido: ')
     from_base = input('Digite a base de origem (bin/dec/hex): ')
@@ -77,7 +77,7 @@ def start_client(host='localhost', port=65432):
         s.sendall(params.encode()) # Envia os parametros em bytes. (String --> bytes)
 
 
-        # Caso a questão selecionado seja a 6, o cliente recebe apenas o arquivo.
+        # Se a questão selecionada for a 6, o cliente receberá apenas o arquivo.
         if question == 6:
             with open('circuito.jpg', 'wb') as file:
                 while True:
