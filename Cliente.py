@@ -1,6 +1,6 @@
 import socket
 
-# Armazenar questão desejada (Retorna um int)
+# Guardar a questão desejada (Retorna um inteiro)
 def get_question():
     while True:
         question = int(input('Digite a questão a ser realizada: '))
